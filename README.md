@@ -1,6 +1,14 @@
-This is a [Plasmo extension](https://docs.plasmo.com/) project bootstrapped with [`plasmo init`](https://www.npmjs.com/package/plasmo).
+# This is a small plugin for keyword research with a better flow
 
-## Getting Started
+## General process of keyword research:
+
+1. Check Google Trends to see the search volume of this keyword within a year, and determine whether to proceed to the next step.
+2. Visit aherf.com to check the keyword difficulty and determine whether to proceed with step three.
+3. Identify the websites with high rankings for that keyword and then check the history of these websites on archive.com.
+
+Identify the websites with high rankings for that keyword and then check the history of these websites on archive.com,So I developed this plugin, which uses the method of selecting text and opening related websites directly through the right-click menu to streamline the process of SEO keyword research.
+
+## For Developer
 
 First, run the development server:
 

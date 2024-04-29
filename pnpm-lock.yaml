@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@plasmohq/selector':
+    specifier: ^0.0.5
+    version: 0.0.5(react@18.2.0)
   plasmo:
     specifier: 0.86.1
     version: 0.86.1(react-dom@18.2.0)(react@18.2.0)
@@ -2205,6 +2208,17 @@ packages:
       - velocityjs
       - walrus
       - whiskers
+    dev: false
+
+  /@plasmohq/selector@0.0.5(react@18.2.0):
+    resolution: {integrity: sha512-CUEB60NjBp12zM++OIEhwumTeq6U8vT+i+PayKWOWi5zk1TS79Ke2TAL0q2scZbLV1LycT5iCPUp403ieYqxHA==}
+    peerDependencies:
+      react: ^16.8.6 || ^17 || ^18
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@pnpm/config.env-replace@1.1.0:
