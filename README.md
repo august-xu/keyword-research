@@ -1,4 +1,4 @@
-# This is a small plugin for keyword research with a better flow
+This is a small plugin for keyword research with a better flow
 
 ## General process of keyword research:
 
@@ -6,7 +6,7 @@
 2. Visit aherf.com to check the keyword difficulty and determine whether to proceed with step three.
 3. Identify the websites with high rankings for that keyword and then check the history of these websites on archive.com.
 
-Identify the websites with high rankings for that keyword and then check the history of these websites on archive.com,So I developed this plugin, which uses the method of selecting text and opening related websites directly through the right-click menu to streamline the process of SEO keyword research.
+After the above steps have been carried out, we can then use SEO tools such as Semrush and Ahrefs to conduct a detailed analysis of the keyword,So I developed this plugin, which uses the method of selecting text and opening related websites directly through the right-click menu to streamline the process of SEO keyword research.
 
 ## For Developer
 
@@ -35,7 +35,3 @@ npm run build
 ```
 
 This should create a production bundle for your extension, ready to be zipped and published to the stores.
-
-## Submit to the webstores
-
-The easiest way to deploy your Plasmo extension is to use the built-in [bpp](https://bpp.browser.market) GitHub action. Prior to using this action however, make sure to build your extension and upload the first version to the store to establish the basic credentials. Then, simply follow [this setup instruction](https://docs.plasmo.com/framework/workflows/submit) and you should be on your way for automated submission!
